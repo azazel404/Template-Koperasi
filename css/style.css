@@ -1,0 +1,374 @@
+* {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+@media (min-width: 1200px){
+	.container{
+		width: 1160px;
+	}
+}
+
+
+.container {
+	margin: 0px auto;
+	padding: 0px 20px;
+}
+
+
+/*SHADOW PADA WEB CSS*/
+
+.card {
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+}
+
+.cardh{
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+}
+
+.cardh:hover{
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+	transition: 0.3;
+}
+
+
+/*INDEX PADA WEB CSS*/
+
+nav{
+	background-color:#2c3e50;
+		
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	float: right;
+}
+
+li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding:20px;
+}
+
+li a:hover{
+	background-color: rgb(12.13.15.11);
+	transition: 0.3s;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.jumbroton{
+	background-size: cover;
+	background:url(../img/header12.jpg);
+	padding:100px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.jumbroton h1{
+	color: aqua;
+
+}
+
+.button1 {
+	display: inline-block;
+    padding: 12px 20px;
+    color: #fff;
+    background-color: aqua;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.header{
+	margin-top: 50px;
+}
+
+.header h1 {
+	color: black;
+	padding-bottom: 20px;
+	border-bottom: 1px solid aqua;
+}
+
+.header p{
+	padding: 20px;
+	text-indent: 20px;
+}
+
+.contact input[type=text], .contact textarea, .contact input[type=submit] {
+	width: 100%;
+	border-radius: 5px;
+	padding: 18px 24px;
+	display: block;
+	margin: 10px 0px;
+	border: none;
+	border-bottom: 1px solid aqua;
+	border-radius: 0px;
+	box-sizing: border-box;
+}
+.contact input[type=submit] {
+	color: black;
+	background-color: aqua;
+	font-size: 20px;
+}
+.contact input[type=submit]:hover {
+	color: #fff;
+	background-color: #424242;
+	transition: 0.3s;
+}	
+
+footer{
+	background-color: black;
+	margin-top: 100px;
+}
+
+footer{
+	display: block;
+}
+.p-footer{
+	padding-bottom:16px;
+	text-align: center;
+	color:white;
+	padding-top: 50px;
+	text-decoration: none;
+}
+
+
+/*LOGIN CSS*/
+
+.form{
+	background:rgba(19, 35, 47, 0.9);
+	padding: 100px;
+	max-width: 350px;
+	margin:50px auto;
+	border-radius: 4px;
+}
+
+.login{
+	display: inline-block;
+	padding: 13px;
+	color:#a0b3b0;
+	text-decoration: none;
+	box-sizing: border-box;
+	width: 50%;
+	background-color:rgba(160, 179, 176, 0.25);
+	text-align: center;
+	font-size: 20px;	
+}
+
+.login:hover	{
+	background-color: #1ab188;
+	color: #fff;
+}
+
+.login-active {
+	background: #179b77;
+ 	color: #ffffff;
+}
+
+.secure input[type=text], .secure input[type=submit], .secure input[type=password]{
+	width: 100%;
+	background-color:rgba(19, 35, 47, 0.9); 
+	border: none;
+	border-radius:0px;
+	box-sizing: border-box;
+	display: block;
+	padding: 10px 20px;
+	margin: 20px 0px;
+}
+
+.secure input[type=submit] {
+    font-size: 24px;
+    background-color: grey;
+    color: #fff;
+}
+
+.secure input[type=submit]:hover{
+	background-color: rgb(10.10.3.1);
+	transition: 0.3s;
+	color: black;
+}
+.alert {
+	padding: 12px;
+	color: #ef9a9a;
+	background-color: rgba(239,83,80,0.5);
+	display: block;
+	border-radius: 5px;
+	text-align: center;
+}
+
+
+
+/*BAGIAN WEB ADMIN BUTTON DAN TABLE*/
+
+.nav{
+	background-color: #2c3e50;
+	padding: 3px;
+}
+.button {
+	padding: 12px 20px;
+	color: #fff;
+	background-color: #d50000;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 1px solid #d50000;
+}
+.button:hover {
+	color: #d50000;
+	background-color: #fff;
+	transition: 0.3s;
+}
+.btn-fix {
+	bottom: 50px;
+	right: 50px;
+	padding: 25px;
+	background-size: cover;
+	background-color: black;
+	position: fixed;
+	border-radius: 50%;
+}
+.btn-tab {
+	padding: 10px;
+	background-size: cover;
+	display: block;
+}
+.top {
+	background-image: url(../img/top.png);
+}
+.edit {
+	background-image: url(../img/edit.png);
+}
+.delete {
+	background-image: url(../img/delete.png);
+}
+.plus{
+	background-image: url(../img/plus.png);
+}
+
+.print{
+	background-image: url(../img/print.png);
+}
+
+.btn-print{
+	bottom: 50px;
+	right: 150px;
+	padding: 25px;
+	background-color: white;
+	position: fixed;
+	border-radius: 50%;
+	background-size: cover;
+}
+
+
+.sidebar {
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	float: left;
+	background-color:#171717;
+	text-align: center;
+	color: #fff;
+}
+.sidebar a {
+	display: block;
+	padding: 12px;
+	background-color:rgba(19, 35, 47, 0.9);
+	margin: 5px;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #0A0A0A;
+	text-align: left;
+}
+.sidebar a:hover {
+	background-color: #030303;
+	color: #fff;
+	padding-left: 30px;
+}
+.sidebar-menu{
+	list-style: none;
+}
+.content {
+	width: 80%;
+	float: right;
+}
+table {
+	border-collapse: collapse; 
+}
+tr:hover {
+	background-color: #ccc;
+}
+th, td {
+	padding: 13px 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+#button-search {
+    position:relative;
+    padding:12px 15px;
+    left:-3px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+    width: 100px;
+}
+
+#search{
+	width: 300px;
+	padding:8px 10px;
+    background:white;
+    border:1px solid #dbdbdb;
+    background-position: 10px 10px; 
+    background-image: url('../img/searchicon.png');
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+
+}
+
+.admin-edit input[type=text], .admin-edit input[type=password] {
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	color: #000;
+	display: block;
+	width:30%;
+	margin: 3px 0px;
+	border-bottom: 1px solid aqua;
+}
+.admin-edit input[type=submit] {
+	margin: 3px 0px;
+	padding: 10px 20px;
+	background-color:aqua;
+	color:black;
+	width: 34%;
+	box-sizing: border-box;
+}
+
+div#box{
+	margin-top: 15px;
+}
+
+.box-top{
+	color: #fff;
+	text-shadow: 0px 1px #000;
+	background-color: #2980b9;
+	padding: 5px;
+	font-weight: 300;
+	padding-left: 15px;
+}
+
+.box-panel{
+	padding: 15px;
+	background-color:orange;
+
+}

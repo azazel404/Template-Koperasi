@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Koperasi</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+<a class="btn-fix plus cardh" href=""></a>
+<a class="btn-print print cardh" href=""></a>	
+	
+<nav class="nav">
+		<ul>
+		<li style="float: left;"><a style="cursor: default;" href=""><b>Example</b> site</a></li>
+		<li><a href="<?php echo $logoutAction ?>">Log Out</a></li>
+		<li><a href="admin.php">Home</a></li>
+		</ul>	
+</nav>
+
+
+	
+<div class="sidebar">
+<br><br>
+	<h1>Admin Panel</h1><br>
+		<a href="anggota.php">Anggota</a>
+		<a href="angsuran.php">Angsuran</a>
+		<a href="detail-angsuran.php">Detail Angsuran</a>
+		<a href="katagori-pinjaman.php">Katagori Pinjaman</a>
+		<a href="petugas-koperasi.php">Petugas Koperasi</a>
+		<a href="pinjaman.php">Pinjaman</a>
+		<a href="simpanan.php">Simpanan</a>
+
+</div>
+
+<div class="content">
+	<div style="padding: 30px;">
+		<h1>Dasboard</h1><br>
+
+        <form id="form1" name="form1" method="post" action="">
+  			<input style="display: inline-block;" id="search" type="text" name="textfield" id="textfield" placeholder="search" />
+  			<input id="button-search" type="button" name="search" id="search" value="search" />
+		</form>
+
+		<table>
+			<tr>
+				<th>Nama</th>
+				<th>Alamat</th>
+				<th colspan="2"></th>
+			</tr>
+			<tr>
+				<td>example1</td>
+				<td>example2</td>
+				<td><a class="btn-tab edit" href=""></a></td>
+				<td><a class="btn-tab delete" href=""></a></td>
+			</tr>
+		</table>
+	</div>
+</div>
+</body>
+</html>

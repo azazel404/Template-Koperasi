@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_detilangsuran" value="name:id_angsuran;datatype:string,name:tgl_jatuh_tempo;datatype:date,name:besar_angsuran;datatype:string,name:ket;datatype:string" />
+	<infoitem key="UD_detilangsuranedit" value="name:id_angsuran;datatype:string,name:tgl_jatuh_tempo;datatype:date,name:besar_angsuran;datatype:string,name:ket;datatype:string" />
+	<infoitem key="UD_detilangsurandelete" value="name:id_angsuran;datatype:string,name:tgl_jatuh_tempo;datatype:date,name:besar_angsuran;datatype:string,name:ket;datatype:string" />
+	<infoitem key="UD_detilangsuransearch" value="name:id_angsuran;datatype:string,name:tgl_jatuh_tempo;datatype:date,name:besar_angsuran;datatype:string,name:ket;datatype:string" />
+	<infoitem key="UD_kgtrpinjamandelete" value="name:id_katagori_pinjaman;datatype:string,name:nama_pinjaman;datatype:string" />
+	<infoitem key="UD_kgtrpinjamanedit" value="name:id_katagori_pinjaman;datatype:string,name:nama_pinjaman;datatype:string" />
+	<infoitem key="UD_kgtrpinjaman" value="name:id_katagori_pinjaman;datatype:string,name:nama_pinjaman;datatype:string" />
+	<infoitem key="UD_kgtrpinjamansearch" value="name:id_katagori_pinjaman;datatype:string,name:nama_pinjaman;datatype:string" />
+	<infoitem key="UD_petugaskoperasi" value="name:id_petugas;datatype:string,name:nama;datatype:string,name:alamat;datatype:string,name:ket;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id_simpanan;datatype:string,name:nm_simpanan;datatype:string,name:id_anggota;datatype:string,name:tgl_simpanan;datatype:date,name:besar_simpanan;datatype:string,name:ket;datatype:string" />
+</info>

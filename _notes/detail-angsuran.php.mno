@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_detilangsuran" value="name:id_angsuran;datatype:string,name:tgl_jatuh_tempo;datatype:date,name:besar_angsuran;datatype:string,name:ket;datatype:string" />
+</info>

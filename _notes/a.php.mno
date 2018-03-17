@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_anggotasearch" value="name:id_anggota;datatype:string,name:nama;datatype:string,name:alamat;datatype:string,name:tgl_lahir;datatype:date,name:tmp_lahir;datatype:string,name:j_kel;datatype:string,name:status;datatype:string,name:no_telp;datatype:string,name:ket;datatype:string" />
+</info>

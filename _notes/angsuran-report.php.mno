@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id_angsuran;datatype:string,name:id_katagori;datatype:string,name:id_anggota;datatype:string,name:tgl_pembayaran;datatype:date,name:angsuran_ke;datatype:string,name:besar_angsuran;datatype:string,name:ket;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id_pinjaman;datatype:int,name:nama_pinjaman;datatype:int,name:id_anggota;datatype:int,name:besar_pinjaman;datatype:int,name:tgl_pengajuan_pinjaman;datatype:date,name:tgl_acc_peminjam;datatype:date,name:tgl_pinjaman;datatype:date,name:tgl_pelunasan;datatype:int,name:id_angsuran;datatype:int,name:ket;datatype:int" />
+</info>
